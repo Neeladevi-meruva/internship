@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1 class="logo">My Portfolio</h1>
+			<nav>
+				<ul>
+					<li><a href="#about">About</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section id="about">
+		<div class="container">
+			<h2>About Me</h2>
+			<p>Hi, I'm [Your Name]. I'm a [Your Profession] with [Number of Years] years of experience. I specialize in [Your Skills].</p>
+		</div>
+	</section>
+	<section id="projects">
+		<div class="container">
+			<h2>My Projects</h2>
+			<div class="project-item">
+				<img src="project-1.jpg" alt="Project 1">
+				<h3>Project 1</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget turpis et sem venenatis faucibus. Fusce tristique massa vel bibendum rhoncus.</p>
+			</div>
+			<div class="project-item">
+				<img src="project-2.jpg" alt="Project 2">
+				<h3>Project 2</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget turpis et sem venenatis faucibus. Fusce tristique massa vel bibendum rhoncus.</p>
+			</div>
+			<div class="project-item">
+				<img src="project-3.jpg" alt="Project 3">
+				<h3>Project 3</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget turpis et sem venenatis faucibus. Fusce tristique massa vel bibendum rhoncus.</p>
+			</div>
+		</div>
+	</section>
+	<section id="contact">
+		<div class="container">
+			<h2>Contact Me</h2>
+			<p>You can contact me at [Your Email Address].</p>
+			<ul class="social-links">
+				<li><a href="[Your Social Media Link]"><i class="fab fa-facebook"></i></a></li>
+				<li><a href="[Your Social Media Link]"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="[Your Social Media Link]"><i class="fab fa-linkedin"></i></a></li>
+				<li><a href="[Your Social Media Link]"><i class="fab fa-github"></i></a></li>
+			</ul>
+		</div>
+	</section>
+	<script src="script.js"></script>
+</body>
+</html>
+/* Global styles */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #333;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #777;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Header */
+
+header {
+	background-color: #fff;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+}
+
+.logo {
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 20px;
+	display: inline-block;
+}
+
+nav ul {
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	padding: 20px;
+}
+
+nav ul li a:hover {
+	background-color: #f4f4f4;
+}
+
+/* About section */
+
+#about {
+	background-color: #f4f4f4;
+	padding: 60px 0;
+	text-align: center;
+}
+
+#about h2 {
+	margin-bottom: 30px;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+#about p {
+	margin-bottom: 30px;
+	font-size: 18px;
+}
+
+/* Projects section */
+
+#projects {
+	padding: 60px 0;
+}
+
+#projects h2 {
+	margin-bottom: 30px;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.project-item {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.project-item h3 {
+	margin-top: 20px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.project-item p {
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+/* Contact section */
+
+#contact {
+	background-color: #f4f4f4;
+	padding: 60px 0;
+	text-align: center;
+}
+
+#contact h2 {
+	margin-bottom: 30px;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+#contact p {
+	margin-bottom: 30px;
+	font-size: 18px;
+}
+
+.social-links {
+	list-style: none;
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.social-links li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.social-links li:last-child {
+	margin-right: 0;
+}
+
+.social-links a {
+	font-size: 24px;
+	color: #333;
+	padding: 10px;
+}
+
+.social-links a:hover {
+	color: #777;
+	background-color: #f4f4f4;
+	border-radius: 50%;
+}
