@@ -8,7 +8,7 @@ class Defaultvalues
     static byte by;
     static short s;
     static String l;
-    public static vooid main(String args[])
+    public static void main(String args[])
     {
       System.out.println(a);
       System.out.println(b);
